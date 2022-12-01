@@ -1,0 +1,83 @@
+.nynm-popup-btn {
+    padding: 10px;
+    border: 1px solid #000;
+    margin: 10px 0px;
+}
+
+div#productpopup {
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    z-index: 9999;
+    left: 0px;
+    right: 0px;
+    background: #25282b42;
+    width: 100%;
+}
+.custom_popuplayout {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.popup-dialog {
+    width: 65%;
+    display: inline-block;
+    background: #fff;
+    z-index: 99999;
+    box-shadow: 0px 0px 10px 5px #25282ba3;
+}
+.popup-content {
+    padding: 30px;
+}
+.product-page-popup .popup-header {
+    width: 100%;
+    float: left;
+}
+.productpopup-body {
+    text-align: justify;
+    margin-top: 5px;
+}
+div#productpopup {
+    opacity: 0;
+}
+button.productpopup_close {
+    float: right;
+    border: none;
+    background: #fff;
+    font-size: 40px;
+}
+
+iframe.nynm_popup.popup_show{
+        display:block !important;
+height:300px;
+    } 
+    iframe.nynm_popup {
+    text-align: center;
+    /* position: fixed; */
+    top: 0px;
+    bottom: 0px;
+    z-index: 9999;
+    left: 0px;
+    right: 0px;
+    background: #fff;
+    width: 100%;
+    height:300px;
+border:none;
+}
+.input_box button#harirsubmit {
+    background: #371c9c;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+}
+.input_box {
+    font-size: 16px;
+    margin: 17px 0px;
+}
+form .nynm_heading_popup{
+font-size: 25px;
+    font-weight: bold;
+}
